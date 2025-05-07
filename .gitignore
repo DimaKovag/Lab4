@@ -1,0 +1,5 @@
+.terraform/
+*.exe
+terraform/terraform.tfvars
+mykey
+mykey.pub
