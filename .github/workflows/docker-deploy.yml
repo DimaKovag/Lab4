@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t 1nterceptor/ci-cd-lab:latest .
+        run: docker build -t dimakovgan/Lab4:latest .
 
       - name: Push Docker image
-        run: docker push 1nterceptor/ci-cd-lab:latest
+        run: docker push dimakovgan/Lab4:latest
