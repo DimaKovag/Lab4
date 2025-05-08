@@ -47,6 +47,7 @@ resource "aws_instance" "web_app" {
   user_data = <<-EOF
               #!/bin/bash
               # Force update $(date +%s)
+              # Force update $(date +%s)
               sudo apt update -y
               sudo apt install docker.io -y
               sudo systemctl start docker
